@@ -112,8 +112,8 @@ public class KeywordReplacer implements IText
 			String line = input.getLines().get(i);
 
 			line = line.replace("{PLAYER}", displayName);
-			line = line.replace("{PREFIX}", player.getPrefix);
-			line = line.replace("{SUFFIX}", player.getSuffix);
+			line = line.replace("{PREFIX}", player.getPrefix());
+			line = line.replace("{SUFFIX}", player.getSuffix());
 			line = line.replace("{DISPLAYNAME}", displayName);
 			line = line.replace("{USERNAME}", displayName);
 			line = line.replace("{IP}", ipAddress);
