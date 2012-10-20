@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
+import net.milkbowl.vault.chat.Chat;
 import org.bukkit.World;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -38,6 +39,9 @@ public class KeywordReplacer implements IText
 		{
 			final User user = ess.getUser(sender);
 			user.setDisplayNick();
+			displayName = user.getDisplayName();
+			displayName = user.getDisplayName();
+			displayName = user.getDisplayName();
 			displayName = user.getDisplayName();
 			userName = user.getName();
 			ipAddress = user.getAddress() == null || user.getAddress().getAddress() == null ? "" : user.getAddress().getAddress().toString();
@@ -112,8 +116,8 @@ public class KeywordReplacer implements IText
 			String line = input.getLines().get(i);
 
 			line = line.replace("{PLAYER}", displayName);
-			line = line.replace("{PREFIX}", user.getPrefix());
-			line = line.replace("{SUFFIX}", user.getSuffix());
+			line = line.replace("{PREFIX}", player.getPrefix());
+			line = line.replace("{SUFFIX}", player.getSuffix());
 			line = line.replace("{DISPLAYNAME}", displayName);
 			line = line.replace("{USERNAME}", displayName);
 			line = line.replace("{IP}", ipAddress);
