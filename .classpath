@@ -2,6 +2,26 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/bukkit-0.0.1-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="lib/Permissions3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/BOSEconomy7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/bPermissions.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/bpermissions2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/bukkit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/craftbukkit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/iCo4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/iCo5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/iCo6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/lombok-0.10.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/MultiCurrency.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/Permissions.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/Permissions3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/PermissionsBukkit-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/PermissionsEx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/PermissionsEx-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/Privileges.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/smack-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/smack-3.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adam Jones/git/Essentials/lib/Vault.jar"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
